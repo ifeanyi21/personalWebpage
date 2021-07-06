@@ -1,3 +1,12 @@
+$(document).scroll(function(){
+    if($(document).scrollTop()>300){
+        $(".myBtn").css("display", "inline-block");
+    }
+    else{
+        $(".myBtn").css("display", "none");
+    }
+});
+
 $("#chk").click(function(){
 $("section").toggleClass("sectionDarkMode");
 $("h2,h3,i").toggleClass("headerDarkMode");
