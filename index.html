@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Web Developer</title>
+    <title>Document</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -47,11 +47,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
+   
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="containter-fluid">
@@ -95,7 +91,7 @@
       </nav>
     </div>
     <!-- Introduction -->
-    <section id="introduction">
+    <section id="introduction" >
       <!-- Dark Mode and Light Mode Toggle --> 
         <input type="checkbox" class="checkbox" id="chk" />
   <label class="label" for="chk">
@@ -107,11 +103,11 @@
 
   <!--  -->
 
-      <div class="row animation"  style = "padding-top: 70px;padding-bottom:40px">
-        <div class="col-md-6 col-sm-12 intro">
+      <div class="animation row" style = "padding-top: 70px;padding-bottom:40px">
+        <div class="col-md-6 col-sm-12 intro ">
           <h1 class="NameIntro">
             Hi There, I'm <br />
-            <span class="ifeanyi-span">IFEANYI</span>
+            <span class="ifeanyi-span ">IFEANYI</span>
           </h1>
         </div>
         <div class="col-md-6 col-sm-12 imags">
@@ -136,35 +132,34 @@
           ><br />
           About Me
         </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius natus
-          nihil dolorum vero odio, harum est minima. Iste molestias soluta earum
-          possimus accusamus reiciendis, delectus recusandae aut minus placeat
-          quaerat veritatis. Qui reprehenderit reiciendis nemo molestias quo
-          voluptates quisquam harum amet alias sunt. Quibusdam ea in alias
-          cumque quas quo.
+        <p class="paraAbtMe">
+          Enthusiastic Computer engineer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Motivated to learn, grow and excel. <br>
+          I am energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with. I am excellent in working with others to achieve a certain objective on time and with excellence.
+        
         </p>
       </div>
-      <div class="row animation">
+      <div class="row ">
         <div class="col-md-6 col-sm-12 box">
           <i id = "abticon"class="fas fa-user-graduate fa-3x abticon"></i>
           <h3>Education</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            libero aperiam vel veniam ab enim unde laborum nobis, quasi
-            voluptates amet mollitia atque? Doloremque in iste culpa aperiam,
-            illum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <span id="showText" class="btnRespond">
-              Corrupti a maiores magnam facilis accusantium impedit laudantium
-              atque quas possimus repellendus. Laboriosam exercitationem
-              accusamus similique! Accusamus alias dolores numquam magnam
-              corrupti aut ipsam natus rerum provident quibusdam, cum doloremque
-              dicta asperiores! Voluptate sapiente nihil sint dolor quas! Ut
-              quia autem reprehenderit esse officiis explicabo, nisi possimus
-              fugiat omnis. Deleniti eveniet in quam distinctio molestiae nemo
-              exercitationem, illo ipsam inventore dolorum quo vero ab amet
-              corporis enim eius iusto repellat alias natus.</span
-            >
+          <p class="paraAbtEdu">
+            <p>
+              <b> Girne American University</b> - Turkish Republic Of Northern Cyprus. 
+              <br>
+              <b> Bachelor of Science Computer Engineering,</b> 01/2018 
+            </p>
+            <p>
+              <b> Good Shepherd Catholic Boys' Secondary School</b> - Oyede, Delta State, Nigeria <br>
+              <b> High School Diploma </b>07/2012 
+            </p>
+            
+           <p>
+            <b> Marvel International School </b>- Ughelli Delta State 
+            <br> 
+           <b> Primary School </b>07/2006
+           </p>
+          
+            
           </p>
         </div>
         <div class="col-md-6 col-sm-12 box">
@@ -214,20 +209,24 @@
     </section>
   <!-- Contact -->
     <section id="contactMe">
-    <div class="row animation">
+    <div class="row animation ">
         
         <div class="col-md-6 col-sm-12 contactForm">
             <h2 style="padding-bottom: 30px;">Contact</h2>
           <form action="" method="post">
             <label for="Name"></label>
             <input type="text" placeholder="Name" />
+            
             <label for="Phone"></label>
             <input type="number" placeholder="Phone" name="" />
+            
             <label for="Email"></label>
             <input type="email" placeholder="Email" />
+            
             <label for="Message"></label>
             <textarea
               name=""
+              
               cols="0"
               rows="6"
               placeholder="Message"
@@ -242,7 +241,7 @@
         </div>
         <div class="col-md-6 col-sm-12 getInTouch">
           
-          <h2>Get In Touch</h2>
+          <h2 id="gettouch" >Get In Touch</h2>
           
   <button id="phoneBtn" type="button" class=" botton btn btn-info btn-lg">
         <a class="details" href="tel:+2348067749483"
@@ -253,8 +252,8 @@
     ><i class="far fa-envelope"></i>kamsey11@gmail.com</a
   ></button>
 </div>
-      </div>
-      <button class="myBtn" title="Go to top"><a style="color: purple;"href="#"><i id ="topBtn"  class="fas fa-arrow-circle-up"></i></a></button>
+</div>
+<button class="myBtn" title="Go to top"><a style="color: purple;"href="#"><i id ="topBtn"  class="fas fa-arrow-circle-up"></i></a></button>
     </section>
     <!-- Footer -->
     <footer>
@@ -281,6 +280,11 @@
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
     <script src="/index.js"></script>
   </body>
 </html>
