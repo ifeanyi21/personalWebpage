@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 50px;
+  background-color: #faf1e6;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2,
+h3 {
+  color: purple;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid #c490e4;
+  width: 80%;
+  height: 40px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  background: transparent;
+}
+
+textarea {
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid #c490e4;
+  width: 80%;
+  height: 120px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  background: transparent;
+}
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+/* Nav Bar */
+.navbar {
+  background-color: purple;
+}
+.brand {
+  font-family: "Cinzel Decorative", cursive;
+  color: #ffc107;
+}
+
+/* Introduction */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  left: 95%;
+  height: 18px;
+  width: 40px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #ffc107;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 14px;
+  width: 15px;
+  transform: translateX(0px);
+  transition: transform 0.3s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(20px);
+}
+
+.mode {
+  background-color: white;
+}
+.modeDiv {
+  padding-bottom: 300px;
+  position: absolute;
+  right: 10px;
+}
+.mode {
+  border-radius: 10px;
+}
+.intro {
+  text-align: center;
+  padding-top: 40px;
+  color: #0abda2;
+}
+.NameIntro {
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+}
+.ifeanyi-span {
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: "Domine", serif;
+}
+
+@media (max-width: 400px) {
+  .ifeanyi-span {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: "Domine", serif;
+  }
+}
+.imags {
+  text-align: center;
+}
+/* Icons */
+.icon {
+  padding-bottom: 10px;
+  color: purple;
+}
+.abticon {
+  color: purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#subBtn {
+  padding-right: 4px;
+}
+.fa-laptop-code,
+.fa-user-graduate,
+.fa-user-tie {
+  padding-left: 20px;
+}
+.fas,
+.far {
+  padding-right: 20px;
+}
+#modeIconSun {
+  padding-right: 10px;
+}
+.fa-moon {
+  padding: 0;
+  color: #ffc107;
+}
+.fa-sun {
+  color: #ffc107;
+}
+
+/* About Me */
+#aboutMe {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/* Skills */
+.skillsSection {
+  background-color: #ffc074;
+  padding: 100px 0;
+  max-height: 300px;
+}
+.inspire-text {
+  text-align: center;
+}
+.carousel-item {
+  padding: 0 70px;
+}
+
+/* Contact */
+.contactForm {
+  text-align: center;
+}
+.botton {
+  margin: 30px 0;
+}
+.details {
+  color: purple;
+}
+.details:hover {
+  text-decoration: none;
+  color: purple;
+}
+#phoneBtn {
+  display: block;
+  text-align: center;
+  height: 48px;
+}
+.mailBtn {
+  display: inline-block;
+  text-align: center;
+  height: 20px;
+}
+
+#subBtn {
+  text-align: left;
+}
+#sendBtn {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#sendBtn:hover {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#phoneBtn:hover {
+  background-color: aqua;
+  text-decoration: uppercase;
+}
+#mailBtn:hover {
+  background-color: aqua;
+  text-decoration: uppercase;
+}
+
+@media (max-width: 767px) {
+  .getInTouch {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  #phoneBtn {
+    display: inline;
+  }
+}
+/* Footer */
+
+.bottom-container {
+  padding-top: 80px;
+  background-color: #1b1717;
+  height: 250px;
+  text-align: center;
+}
+.footer-link {
+  padding: 20px;
+  font-size: 1.3rem;
+}
+.footer-link:hover {
+  padding: 20px;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.footer {
+  padding-top: 40px;
+  color: #eaf6f6;
+}
+
+/* Dark mode */
+.sectionDarkMode {
+  background-color: #343a40;
+}
+.headerDarkMode {
+  color: #ffc107;
+}
+.paraDarkMode {
+  color: #e1e8eb;
+}
+
+.h4DarkMode {
+  color: #d89216;
+}
+.darkModeifeanyi-span {
+  font-weight: bolder;
+  font-family: "Domine", serif;
+  color: #ffc107;
+}
+.labelDarkMode {
+  background-color: #faf1e6;
+}
+.iconDarkMode {
+  color: purple;
+}

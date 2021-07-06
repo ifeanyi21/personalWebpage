@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Icons/favicon-16x16.png"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/b515d76414.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lobster&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="/index.css" />
+
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="containter-fluid">
+      <nav
+        class="navbar navbar-expand-md navbar-dark navigation"
+        style="padding-bottom: 10px; padding-top: 10px"
+      >
+        <a class="navbar-brand" href="#"><span class="brand">IFEANYI </span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#introduction">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/Images/Ifeanyichukwu  Eze Resume.pdf"
+                download
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactMe">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Introduction -->
+    <section id="introduction">
+      <!-- Dark Mode and Light Mode Toggle --> 
+        <input type="checkbox" class="checkbox" id="chk" />
+  <label class="label" for="chk">
+    <i id="modeIconSun"class="fas fa-sun" style="font-size:x-small"></i>
+    <i id="modeIconMoon" class="fas fa-moon" style="font-size:x-small"></i>
+     <div class="ball"></div>
+  </label>
+  
+
+  <!--  -->
+
+      <div class="row" style = "padding-top: 70px;padding-bottom:40px">
+        <div class="col-md-6 col-sm-12 intro">
+          <h1 class="NameIntro">
+            Hi There, I'm <br />
+            <span class="ifeanyi-span">IFEANYI</span>
+          </h1>
+        </div>
+        <div class="col-md-6 col-sm-12 imags">
+          <img
+            src="Images/Ifeanyi.png"
+            class="img-fluid image-title"
+            alt="Ifeanyi"
+          />
+        </div>
+      </div>
+      <hr class="style-two"/>
+    </section>
+    
+
+    <!-- About Me -->
+    <section id="aboutMe">
+      <div>
+        <h2 class="abt">
+          <i
+            class="fas fa-user-tie fa-2x icon"
+          ></i
+          ><br />
+          About Me
+        </h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius natus
+          nihil dolorum vero odio, harum est minima. Iste molestias soluta earum
+          possimus accusamus reiciendis, delectus recusandae aut minus placeat
+          quaerat veritatis. Qui reprehenderit reiciendis nemo molestias quo
+          voluptates quisquam harum amet alias sunt. Quibusdam ea in alias
+          cumque quas quo.
+        </p>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 box">
+          <i id = "abticon"class="fas fa-user-graduate fa-3x abticon"></i>
+          <h3>Education</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            libero aperiam vel veniam ab enim unde laborum nobis, quasi
+            voluptates amet mollitia atque? Doloremque in iste culpa aperiam,
+            illum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span id="showText" class="btnRespond">
+              Corrupti a maiores magnam facilis accusantium impedit laudantium
+              atque quas possimus repellendus. Laboriosam exercitationem
+              accusamus similique! Accusamus alias dolores numquam magnam
+              corrupti aut ipsam natus rerum provident quibusdam, cum doloremque
+              dicta asperiores! Voluptate sapiente nihil sint dolor quas! Ut
+              quia autem reprehenderit esse officiis explicabo, nisi possimus
+              fugiat omnis. Deleniti eveniet in quam distinctio molestiae nemo
+              exercitationem, illo ipsam inventore dolorum quo vero ab amet
+              corporis enim eius iusto repellat alias natus.</span
+            >
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12 box">
+          <i class="fas fa-laptop-code fa-3x  abticon"></i>
+          <h3>Career</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni,
+            voluptas. Commodi sunt voluptas, neque hic voluptatum odio maxime
+            cupiditate architecto ea consequuntur praesentium veniam dicta
+            deserunt modi nisi porro reiciendis deleniti facere! Sunt nesciunt
+            alias hic ab itaque magni vero aperiam minus quos, voluptatum
+            corrupti placeat? Qui eos eligendi ipsa.
+          </p>
+        </div>
+    
+    </section>
+<!-- Skils -->
+    <section id ="skills" class="skillsSection ">   
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h4 class="inspire-text">
+                    "Do one thing every day that scares you."
+                  </h4>
+              </div>
+              <div class="carousel-item">
+                <h4 class="inspire-text">
+                    "Don't be afraid to give up the good to go for the great."
+                  </h4>
+              </div>
+              <div class="carousel-item">
+                <h4 class="inspire-text">
+                    "It is better to fail in originality than to succeed in imitation."
+                  </h4>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+
+    </section>
+  <!-- Contact -->
+    <section id="contactMe">
+    <div class="row">
+        
+        <div class="col-md-6 col-sm-12 contactForm">
+            <h2 style="padding-bottom: 30px;">Contact</h2>
+          <form action="" method="post">
+            <label for="Name"></label>
+            <input type="text" placeholder="Name" />
+            <br /><br />
+            <label for="Phone"></label>
+            <input type="number" placeholder="Phone" name="" id="" />
+            <br /><br />
+            <label for="Email"></label>
+            <input type="email" placeholder="Email" />
+            <br /><br />
+            <label for="Message"></label>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="6"
+              placeholder="Message"
+            ></textarea
+            ><br />
+            <br />
+            <button id="sendBtn" type="button">
+              <i id="subBtn"class="fas fa-paper-plane"></i>
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12 getInTouch">
+          
+          <h2>Get In Touch</h2>
+          
+  <button id="phoneBtn" type="button" class=" botton btn btn-info btn-lg">
+        <a class="details" href="tel:+2348067749483"
+            ><i class="fas fa-phone-alt"></i> +(234)806 774 9483</a>
+        </button>
+        <br>
+    <button id="mailBtn" type="button" class="btn btn-info btn-lg"><a class="details" href="mailto:kamsey11@gmail.com"
+    ><i class="far fa-envelope"></i>kamsey11@gmail.com</a
+  ></button>
+</div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="bottom-container">
+        <a
+          target="_blank"
+          class="footer-link"
+          href="https://www.linkedin.com/in/ifeanyichukwu-eze-b93346214/"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <a
+          class="footer-link"
+          href="https://twitter.com/kamsey21"
+          target="_blank"
+          ><i class="fab fa-twitter-square fa-2x"></i
+        ></a>
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/west___21/"
+          target="_blank"
+          ><i class="fab fa-instagram fa-2x"></i
+        ></a>
+        <p class="footer">© 2021 IfeanyiChukwu Eze.</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
