@@ -43,6 +43,23 @@ hr.style-two {
     rgba(0, 0, 0, 0)
   );
 }
+/* Animations */
+.animation {
+  animation: upToDown 3s cubic-bezier(0.34, -0.24, 0.76, 1.51) forwards;
+}
+@keyframes upToDown {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
 /* Nav Bar */
 .navbar {
   background-color: purple;
