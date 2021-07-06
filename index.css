@@ -141,6 +141,21 @@ hr.style-two {
 .imags {
   text-align: center;
 }
+/* Jump to start */
+.myBtn {
+  display: none;
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 10px;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
 /* Icons */
 .icon {
   padding-bottom: 10px;
@@ -150,6 +165,9 @@ hr.style-two {
   color: purple;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+#topBtn {
+  padding: 0;
 }
 #subBtn {
   padding-right: 4px;
@@ -173,7 +191,6 @@ hr.style-two {
 .fa-sun {
   color: #ffc107;
 }
-
 /* About Me */
 #aboutMe {
   text-align: center;
