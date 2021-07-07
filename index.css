@@ -281,7 +281,19 @@ hr.style-two {
 @media (max-width: 600px) {
   .navbar-toggler {
     position: relative;
-    right: 91%;
+    right: 90%;
+  }
+}
+@media (max-width: 540px) {
+  .navbar-toggler {
+    position: relative;
+    right: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-toggler {
+    position: relative;
+    right: 85%;
   }
 }
 /* Footer */
