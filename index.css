@@ -49,6 +49,9 @@ hr.style-two {
 .animation {
   animation: upToDown 3s cubic-bezier(0.34, -0.24, 0.76, 1.51) forwards;
 }
+.animate {
+  animation: leftToRight 2s ease-in-out;
+}
 @keyframes upToDown {
   0% {
     transform: translateY(-50%);
@@ -60,6 +63,19 @@ hr.style-two {
     opacity: 1;
   }
 }
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
 /* Nav Bar */
 .navbar {
   background-color: purple;
@@ -281,9 +297,10 @@ hr.style-two {
 @media (max-width: 600px) {
   .navbar-toggler {
     position: relative;
-    right: 90%;
+    right: 91%;
   }
 }
+
 @media (max-width: 540px) {
   .navbar-toggler {
     position: relative;
