@@ -269,6 +269,20 @@ hr.style-two {
   .imags {
     text-align: center;
   }
+  .navbar-brand {
+    position: relative;
+    left: 40%;
+  }
+  .navbar-toggler {
+    position: relative;
+    right: 92%;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-toggler {
+    position: relative;
+    right: 91%;
+  }
 }
 /* Footer */
 
