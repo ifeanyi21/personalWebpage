@@ -216,7 +216,16 @@ hr.style-two {
   padding: 100px 0;
   max-height: 300px;
 }
-
+.library {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.library:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
 .carousel-item {
   padding: 0 70px;
   text-align: center;
