@@ -318,6 +318,9 @@ hr.style-two {
     position: relative;
     right: 90%;
   }
+   .library {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
   .navbar-toggler {
