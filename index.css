@@ -216,6 +216,9 @@ hr.style-two {
   padding: 100px 0;
   max-height: 300px;
 }
+#projectHeading {
+  text-align: center;
+}
 .library {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
