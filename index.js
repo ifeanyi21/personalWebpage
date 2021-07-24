@@ -7,6 +7,12 @@ $(document).scroll(function(){
         $(".myBtn").css("display", "none");
     }
 });
+
+$(window).on("load",function(){
+    setTimeout(function(){
+        $(".loader-wrapper").slideUp("slow");
+    },1000)
+});
 function darkMode(){
     $("section").addClass("sectionDarkMode");
     $("h2,h3,i").addClass("headerDarkMode");
