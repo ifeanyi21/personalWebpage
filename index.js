@@ -14,6 +14,7 @@ $(window).on("load",function(){
     },1000)
 });
 function darkMode(){
+    $("#skills").addClass("listDarkMode");
     $("section").addClass("sectionDarkMode");
     $("h2,h3,i").addClass("headerDarkMode");
     $("p").addClass("paraDarkMode");
@@ -26,6 +27,7 @@ function darkMode(){
     localStorage.setItem("Mode","Dark-Mode");
 }
 function lightMode(){
+    $("#skills").removeClass("listDarkMode");
     $("section").removeClass("sectionDarkMode");
     $("h2,h3,i").removeClass("headerDarkMode");
     $("p").removeClass("paraDarkMode");
