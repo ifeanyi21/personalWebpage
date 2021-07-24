@@ -86,6 +86,7 @@ hr.style-two {
 }
 
 /* Introduction */
+
 .checkbox {
   opacity: 0;
   position: absolute;
@@ -209,16 +210,25 @@ hr.style-two {
   padding-bottom: 40px;
   text-align: center;
 }
+.box #skills {
+  /* text-align: left; */
+  list-style-type: none;
+}
 
-/* Skills */
+li {
+  padding: 20px;
+}
+
+/* Project */
 .skillsSection {
   background-color: #ffc074;
-  padding: 100px 0;
+  padding: 10px 0;
   height: 350px;
 }
 #projectHeading {
   text-align: center;
 }
+
 .library {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -229,6 +239,11 @@ hr.style-two {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+.skillsset {
+  box-shadow: 8px 8px 7px 4px rgba(0, 0, 0, 0.21);
+  padding: 20px;
+}
+
 .carousel-item {
   padding: 0 70px;
   text-align: center;
@@ -266,8 +281,11 @@ hr.style-two {
 }
 
 #sendBtn:hover {
-  color: white;
-  background-color: black;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
   border-radius: 5px;
 }
 .botton {
@@ -305,6 +323,13 @@ hr.style-two {
     position: relative;
     right: 92%;
   }
+  .box #skills {
+    text-align: center;
+  }
+  .skillsset {
+    width: 90%;
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 600px) {
   .navbar-toggler {
@@ -318,7 +343,7 @@ hr.style-two {
     position: relative;
     right: 90%;
   }
-   .library {
+  .library {
     width: 100%;
   }
 }
@@ -362,7 +387,9 @@ hr.style-two {
 .paraDarkMode {
   color: #e1e8eb;
 }
-
+.listDarkMode {
+  color: #e1e8eb;
+}
 .h4DarkMode {
   color: #d89216;
 }
