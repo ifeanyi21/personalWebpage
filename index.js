@@ -7,7 +7,7 @@ $("#sendBtn").click((e) => {
   let message = document.querySelector(".Message").value;
 
   if (name === "" || phone === "" || email === "" || message === "") {
-    console.log("Fill all Fields");
+    alert("Fill all Fields");
   } else {
     const messageDetails = {
       Name: name,
