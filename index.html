@@ -212,26 +212,25 @@
         <div class="col-md-6 col-sm-12 contactForm animate">
             <h2 style="padding-bottom: 30px;">Contact</h2>
           <form action="" method="post">
-            <label for="Name"></label>
-            <input type="text" placeholder="Name" />
+                        <label for="Name"></label>
+            <input type="text" class="Name" placeholder="Name" required value />
             
             <label for="Phone"></label>
-            <input type="number" placeholder="Phone" name="" />
+            <input type="number" class="Phone" placeholder="Phone" required value name="" />
             
             <label for="Email"></label>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" class="Email" required value />
             
             <label for="Message"></label>
             <textarea
               name=""
-              
               cols="0"
               rows="6"
-              placeholder="Message"
+              placeholder="Message" class="Message" required value
             ></textarea
             ><br />
             <br />
-            <button id="sendBtn" type="button">
+            <button class="btn btn-success" id="sendBtn" type="button">
               <i id="subBtn"class="fas fa-paper-plane"></i>
               Submit
             </button>
